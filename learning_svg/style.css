@@ -1,0 +1,64 @@
+body {
+    background-color: #070C23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#general_div {
+    margin-top: 6rem;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.div{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.4rem 1rem;
+    margin-right: 2rem;
+}
+label {
+    color: white;
+    font-size: 150%;
+}
+#name_input{
+    border-radius: 5px;
+    padding: 0.4rem;
+    font-size: 120%;
+    width: 70%;
+}
+#fontSize{
+    padding: 0.1rem;
+    font-size: 120%;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+#font{
+    padding: 0.2rem;
+    font-size: 120%;
+    margin-left: 0.5rem;
+    border-radius: 7px;
+}
+
+
+
+#canvas {
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+#download_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bt_download{
+    border-radius: 10px;
+    font-size: 150%;
+    padding: 0.8rem;
+}

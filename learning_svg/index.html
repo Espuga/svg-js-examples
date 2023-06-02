@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+  <!-- <script src="./node_modules/@svgdotjs/"></script> -->
+  <!-- <script src="https://unpkg.com/@svgdotjs/svg.topath.js"></script> -->
+  <script src="./node_modules/svg-text-to-path/dist/svg-text-to-path-fontkit.js"></script>
+  
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="general_div">
+        <table>
+            <tr>
+                <th>
+                    <div class="div">
+                        <label>Text:</label><br>
+                        <input type="text" id="name_input">
+                    </div>
+                    <br>
+                    <div class="div">
+                        <label>Size:</label>
+                        <select id="fontSize" name="fontSize">
+                            <option value="30">30</option>
+                            <option value="36">36</option>
+                            <option value="44">44</option>
+                            <option value="52">52</option>
+                            <option value="64">64</option>
+                            <option value="72">72</option>
+                            <option value="86">86</option>
+                            <option value="98" selected>98</option>
+                            <option value="106">106</option>
+                            <option value="120">120</option>
+                            <option value="134">134</option>
+                            <option value="146">146</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="div">
+                        <label>Font:</label>
+                        <select id="font" name="font">
+                            <option value="Arial">Arial</option>
+                            <option value="Times New Roman">Times New Roman</option>
+                            <option value="Courier New">Courier New</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Tahoma">Tahoma</option>
+                            <option value="Garamond">Garamond</option>
+                        </select>
+                    </div>
+                    
+                </th>
+                <th>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="300" id="canvas">
+                    </svg>
+                </th>
+            </tr>
+        </table>
+        <br>
+        <div id="download_div">
+            <button id="bt_download">Download</button>
+        </div>
+        
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

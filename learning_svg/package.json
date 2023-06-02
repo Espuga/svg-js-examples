@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.2",
+    "@svgdotjs/svg.topath.js": "^2.0.3",
+    "svg-text-to-path": "^2.0.2"
+  }
+}
